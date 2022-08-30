@@ -20,6 +20,7 @@ ul {
     list-style: none;
 }
 
+
 /* header and logo */
 
 h1 {
@@ -43,22 +44,26 @@ h2 {
 
 /* nav */
 
-#nav-links {
+.topnav {
     font-size: 100%;
     letter-spacing: 4px;
-    display: flex;
+    overflow: hidden;
 }
 
-#nav-links, #logo {
+.topnav, #logo {
     line-height: 75px;
 }
 
-#nav-links li {
+.topnav li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    color: black;
+    text-align: center;
 }
 
+
+/* hero-image */
 #hero-outer {
     height: 100vh;
     width: 100vw;
@@ -66,6 +71,7 @@ h2 {
 
     position: absolute;
 }
+
 
 #hero-image {
     height: 100vh;
