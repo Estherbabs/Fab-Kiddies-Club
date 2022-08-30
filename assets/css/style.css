@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Noto Serif HK', serif;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* header and logo */
+
+h1 {
+    font-family: serif, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color: black;
+}
+
+h2 {
+    font-family: serif, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: black;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+}
+
+/* nav */
+
+#nav-links {
+    font-size: 100%;
+    letter-spacing: 4px;
+    display: flex;
+}
+
+#nav-links, #logo {
+    line-height: 75px;
+}
+
+#nav-links li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#hero-outer {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+    position: absolute;
+}
+
+#hero-image {
+    height: 100vh;
+    width: 100vw;
+    background: url('../images/Kids\ blowing\ bubbles.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
