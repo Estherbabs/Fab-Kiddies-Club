@@ -9,11 +9,17 @@
 body {
     font-family: 'Noto Serif HK', serif;
     font-weight: 300;
-    color: whitesmoke;
+    color: black;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+    background-color: rgb(212, 164, 164);
 }
 
 ul {
@@ -58,10 +64,13 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    color: black;
     text-align: center;
 }
 
+
+.active {
+    border-bottom: 1px solid black;
+}
 
 /* hero-image */
 #hero-outer {
@@ -72,11 +81,10 @@ h2 {
     position: absolute;
 }
 
-
 #hero-image {
-    height: 100vh;
-    width: 100vw;
-    background: url('../images/Kids\ blowing\ bubbles.jpg');
+    height: 600px;
+    width: 100%;
+    background: url('../images/Kids\ blowing\ bubbles.jpg') no-repeat center center;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 }
