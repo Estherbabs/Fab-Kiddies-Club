@@ -126,24 +126,27 @@ h2, h3 {
 
 /* activities */
 
-#activities {
-    height: 600px;
-}
-
-#activities h1 {
-    font-size: 52px;
-    margin-bottom: 60px;
+.section-header {
+    font-size: 26px;
+    height: 50px;
+    margin-bottom: 30px;
     text-align: center;
 }
+    
+
 
 .first {
     display: inline-block;
     text-align: center;
-    width: 500px;
+    width: 300px;
     background-color: rgb(212, 164, 164, .4);
-    margin: 10px;
-    margin-bottom: 50px;
-    height: 500px;
+    margin: 0 5px;
+    margin-bottom: 60px;
+    height: 300px;
+    box-shadow: 5px 5px 15px rgb(212, 164, 164, .7);
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
     
 }
 
@@ -154,34 +157,60 @@ h2, h3 {
 .second {
     display: inline-block;
     text-align: center;
-    width: 500px;
+    width: 300px;
     background-color: rgb(212, 164, 164, .4);
     margin: 10px;
-    margin-bottom: 50px;
-    height: 500px;
+    margin-bottom: 60px;
+    height: 300px;
+    box-shadow: 5px 5px 15px rgb(212, 164, 164, .7);
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
 }
 
 .third {
     display: inline-block;
     text-align: center;
-    width: 500px;
+    width: 300px;
     background-color: rgb(212, 164, 164, .4);
     margin: 10px;
-    margin-bottom: 50px;
-    height: 500px;
+    margin-bottom: 60px;
+    height: 300px;
+    box-shadow: 5px 5px 15px rgb(212, 164, 164, .7);
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
 }
 
 .first h3 {
-    font-size: 26px;
+    font-size: 20px;
     margin-top: 20px;
 }
 
 .second h3 {
-    font-size: 26px;
+    font-size: 20x;
     margin-top: 20px;
 }
 
 .third h3 {
-    font-size: 26px;
+    font-size: 20px;
     margin-top: 20px;
+}
+
+.first p {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 12px;
+}
+
+.second p{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 12px;
+}
+
+.third p {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 12px;
 }
