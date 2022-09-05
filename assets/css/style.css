@@ -134,83 +134,26 @@ h2, h3 {
 }
     
 
-
-.first {
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-    background-color: rgb(212, 164, 164, .4);
-    margin: 0 5px;
-    margin-bottom: 60px;
-    height: 300px;
-    box-shadow: 5px 5px 15px rgb(212, 164, 164, .7);
-    position: relative;
-    overflow: hidden;
-    padding: 15px;
-    
-}
-
 .container {
+    width: 950px;
+    height: 500px;
+    background: rgb(212, 164, 164, .4);
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
-.second {
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-    background-color: rgb(212, 164, 164, .4);
+
+
+.box {
     margin: 10px;
-    margin-bottom: 60px;
-    height: 300px;
-    box-shadow: 5px 5px 15px rgb(212, 164, 164, .7);
-    position: relative;
-    overflow: hidden;
-    padding: 15px;
+    width: 800px;
+    height: 400px;
 }
 
-.third {
-    display: inline-block;
-    text-align: center;
+img {
     width: 300px;
-    background-color: rgb(212, 164, 164, .4);
-    margin: 10px;
-    margin-bottom: 60px;
-    height: 300px;
-    box-shadow: 5px 5px 15px rgb(212, 164, 164, .7);
-    position: relative;
-    overflow: hidden;
-    padding: 15px;
-}
-
-.first h3 {
-    font-size: 20px;
-    margin-top: 20px;
-}
-
-.second h3 {
-    font-size: 20x;
-    margin-top: 20px;
-}
-
-.third h3 {
-    font-size: 20px;
-    margin-top: 20px;
-}
-
-.first p {
-    font-size: 15px;
-    text-transform: uppercase;
-    margin: 12px;
-}
-
-.second p{
-    font-size: 15px;
-    text-transform: uppercase;
-    margin: 12px;
-}
-
-.third p {
-    font-size: 15px;
-    text-transform: uppercase;
-    margin: 12px;
+    height: 200px;
 }
