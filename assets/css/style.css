@@ -269,6 +269,23 @@ footer {
 
 }
 
+/* section */
+
+.section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.content-section {
+    float: left;
+    width: 55%;
+}
+
+.image-section {
+    float: right;
+    width: 40%;
+}
+
 
 /* Tablet Devices */
 @media only screen and (max-width: 992px) {
