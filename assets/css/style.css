@@ -159,7 +159,7 @@ h3 {
     font-size: 18px;
 }
 
-img {
+.box img {
     width: 300px;
     height: 200px;
     display: flex;
@@ -352,6 +352,65 @@ footer {
 
 }
 
+/* gallery */
+.grid {
+    padding: 1em;
+}
+
+.grid-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0, -0.5em;
+}
+
+.fabkids {
+    flex: 1 1 100%;
+    padding: 0.5em;
+}
+
+.fabkids-inner {
+    background-size: cover;
+    background-image: url(../images/fab-kids-camping3.jpg);
+    padding-top: calc(105% / (18/18));
+}
+
+.fabkids:nth-child(2) .fabkids-inner {
+    background-image: url(../images/fab-kids-camping\ 1.jpg);
+}
+
+.fabkids:nth-child(3) .fabkids-inner {
+    background-image: url(../images/fab-kids-crafting.jpg);
+}
+
+.fabkids:nth-child(4) .fabkids-inner {
+    background-image: url(../images/fab-kids-crafting\ 2.jpg);
+}
+
+.fabkids:nth-child(5) .fabkids-inner {
+    background-image: url(../images/kid\ crafting\ 3.jpg);
+}
+
+.fabkids:nth-child(6) .fabkids-inner {
+    background-image: url(../images/kid\ painting\ easter\ egg.jpg);
+}
+
+.fabkids:nth-child(7) .fabkids-inner {
+    background-image: url(../images/Kids\ easter\ egg.jpg);
+}
+
+.fabkids:nth-child(8) .fabkids-inner {
+    background-image: url(../images/kid\ with\ face\ paint.jpg);
+}
+
+.fabkids:nth-child(9) .fabkids-inner {
+    background-image: url(../images/Kids\ blowing\ bubbles.jpg);
+}
+
+.fabkids:nth-child(10) .fabkids-inner {
+    background-image: url(../images/Boy\ stacking\ up\ toys.jpg);
+}
+
+
 /* Tablet Devices */
 @media only screen and (max-width: 992px) {
     #logo {
@@ -363,5 +422,23 @@ footer {
 @media only screen and (max-width: 768px) {
     #logo{
         color: red
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .fabkids {
+        flex: 1 1 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .fabkids {
+        flex: 1 1 33.333%;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .fabkids {
+        flex: 1 1 20%;
     }
 }
