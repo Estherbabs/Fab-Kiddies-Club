@@ -411,6 +411,76 @@ footer {
 }
 
 
+/* sign up */
+
+.signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.signup-box h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4 {
+
+    text-align: center;
+}
+
+.signup-box form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+.signup-box form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.signup-box form input {
+    width: 100%;
+    padding: 7px;
+    border: rgb(212, 164, 164, .4);
+    border: 1px solid rgb(212, 164, 164, .7);
+    border-radius: 6px;
+    outline: none;
+    
+}
+
+.signup-box input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rosybrown;
+    color: white;
+    font-size: 18px;
+}
+
+.signup-box p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.login {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.login a {
+    color: rosybrown;
+}
+
+
+
 /* Tablet Devices */
 @media only screen and (max-width: 992px) {
     #logo {
