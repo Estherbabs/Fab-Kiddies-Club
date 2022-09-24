@@ -254,6 +254,8 @@ footer {
 .social-networks {
     text-align: center;
     margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
 }
 
 .social-networks > li {
@@ -429,6 +431,7 @@ footer {
 h4 {
 
     text-align: center;
+    margin-top: 10px;
 }
 
 .signup-box form {
