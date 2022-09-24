@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 300;
     background-color: rgb(225, 48, 80, 0.06);
 }
@@ -47,6 +47,7 @@ h3 {
 #logo {
     float: left;
     font-size: 250%;
+    margin-left: 1rem;
 }
 
 /* nav */
@@ -77,16 +78,14 @@ h3 {
 /* hero-image and cover-text */
 #hero-outer {
     height: 100vh;
-    width: 100vw;
     overflow: hidden;
-
     position: relative;
 }
 
 #hero-image {
     height: 100vh;
     width: 100vw;
-    background: url('../images/Children\ playing\ outside.jpg') no-repeat center center;
+    background: url('../images/Children-playing-outside.jpg') no-repeat center center;
     background-size: cover;
     transition: transform 2s;
 }
@@ -138,7 +137,7 @@ h3 {
 
 
 .container {
-    width: 900px;
+    width: 88%;
     height: 400px;
     margin: 0 auto;
     background: rgb(225, 48, 80, 0.06);
@@ -159,12 +158,21 @@ h3 {
     font-size: 18px;
 }
 
-.box img {
-    width: 300px;
-    height: 200px;
-    display: flex;
+.box p {
+    font-size: 1em;
+    margin-top:10px ;
 }
 
+.box img {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
+/* contact */
 .contact-in {
     width: 80%;
     height: auto;
@@ -179,10 +187,11 @@ h3 {
 }
 
 .contact-map {
-    width: 100%;
+    width: 92%;
     height: auto;
     flex: 50%;
     padding: 30px;
+    margin: 0 auto;
 }
 
 .contact-map iframe {
@@ -334,7 +343,7 @@ footer {
     padding: 12px 35px;
     border-radius: 23px;
     border: 1px solid rgb(212, 164, 164, .4);
-    letter-spacing: 1.5;
+    letter-spacing: 1.5em;
     margin-top: 35px;
 }
 
@@ -359,10 +368,21 @@ footer {
     padding: 1em;
 }
 
+.grid h2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 50px 0px; 
+}
+
 .grid-inner {
     display: flex;
     flex-wrap: wrap;
-    margin: 0, -0.5em;
+    margin: 0 -0.5em;
 }
 
 .fabkids {
@@ -377,7 +397,7 @@ footer {
 }
 
 .fabkids:nth-child(2) .fabkids-inner {
-    background-image: url(../images/fab-kids-camping\ 1.jpg);
+    background-image: url(../images/fab-kids-camping-1.jpg);
 }
 
 .fabkids:nth-child(3) .fabkids-inner {
@@ -385,31 +405,31 @@ footer {
 }
 
 .fabkids:nth-child(4) .fabkids-inner {
-    background-image: url(../images/fab-kids-crafting\ 2.jpg);
+    background-image: url(../images/kid-with-face-paint.jpg);
 }
 
 .fabkids:nth-child(5) .fabkids-inner {
-    background-image: url(../images/kid\ crafting\ 3.jpg);
+    background-image: url(../images/kid-crafting-3.jpg);
 }
 
 .fabkids:nth-child(6) .fabkids-inner {
-    background-image: url(../images/kid\ painting\ easter\ egg.jpg);
+    background-image: url(../images/pexels-artem-podrez-6941672.jpg);
 }
 
 .fabkids:nth-child(7) .fabkids-inner {
-    background-image: url(../images/Kids\ easter\ egg.jpg);
+    background-image: url(../images/Kids-easter-egg.jpg);
 }
 
 .fabkids:nth-child(8) .fabkids-inner {
-    background-image: url(../images/kid\ with\ face\ paint.jpg);
+    background-image: url(../images/Kids-blowing-bubbles.jpg);
 }
 
 .fabkids:nth-child(9) .fabkids-inner {
-    background-image: url(../images/Kids\ blowing\ bubbles.jpg);
+    background-image: url(../images/kids-crafting-three.jpg);
 }
 
 .fabkids:nth-child(10) .fabkids-inner {
-    background-image: url(../images/Boy\ stacking\ up\ toys.jpg);
+    background-image: url(../images/Boy-stacking-up-toys.jpg);
 }
 
 
@@ -423,7 +443,7 @@ footer {
     border-radius: 3px;
 }
 
-.signup-box h1 {
+.signup-box h2 {
     text-align: center;
     padding-top: 15px;
 }
