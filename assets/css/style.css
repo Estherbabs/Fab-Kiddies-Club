@@ -48,6 +48,7 @@ h3 {
     float: left;
     font-size: 250%;
     margin-left: 1rem;
+    justify-content: space-evenly;
 }
 
 /* nav */
@@ -135,6 +136,9 @@ h3 {
     text-align: center;
 }
 
+.section-header h2 {
+    font-size: 1.5em;
+}
 
 .container {
     width: 88%;
@@ -505,19 +509,109 @@ h4 {
 
 
 /* Tablet Devices */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 980px) {
     #logo {
         font-size: 1rem !important;
     }
 }
 
+
+
 /* Mobile devices */
 @media only screen and (max-width: 768px) {
     #logo{
-        color: red
+        width: 253px;
+        font-size: 18px !important;
+        font-weight: bolder;
+        align-items: center;
+        justify-content: space-evenly;
     }
 }
 
+@media only screen and (max-width: 480px) {
+    #logo{
+        width: 253px;
+        font-size: 18px;
+        font-weight: bolder;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+
+@media  screen and (max-width: 480px) {
+    .topnav{
+     display: flex;
+     width: 100%;
+     flex-direction: column-reverse;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .section-header h2 {
+    font-size: 1em;
+    }
+}
+
+@media  screen and (max-width: 480px) {
+    .section-header h2 {
+    font-size: 0.8em;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .container {
+       flex-direction: column;
+       width: 50%;
+       height: 1000px;
+       align-items: center ;
+       margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        width: 97%;
+        height: 925px;
+        align-items: center ;
+        margin: 0 auto;
+     }
+}
+
+@media  screen and (max-width: 768px) {
+    .box {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media  screen and (max-width: 480px) {
+    .box {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .box img {
+        height: 210px;
+    }
+}
+
+
+@media  screen and (max-width: 480px) {
+    .box img {
+        height: 210px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .contact-form h2 {
+        margin-top: 67px;
+        font-size: 25px;
+    }
+}
 @media screen and (min-width: 480px) {
     .fabkids {
         flex: 1 1 100%;
@@ -535,3 +629,4 @@ h4 {
         flex: 1 1 20%;
     }
 }
+
