@@ -612,6 +612,34 @@ h4 {
         font-size: 25px;
     }
 }
+
+@media  screen and (max-width:480px) {
+    footer {
+      width: 80%;
+    }
+
+}
+
+@media  screen and (max-width:480px) {
+    .section-header img {
+      width: 80%;
+    }
+
+}
+
+
+@media  screen and (max-width:480px) {
+    .social-networks{
+      display: flex;
+    }
+
+@media screen and (max-width:480px) {
+    .about-container .title {
+        font-size: 16px;
+    }
+}
+
+}
 @media screen and (min-width: 480px) {
     .fabkids {
         flex: 1 1 100%;
