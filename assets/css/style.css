@@ -620,13 +620,6 @@ h4 {
 
 }
 
-@media  screen and (max-width:480px) {
-    .section-header img {
-      width: 80%;
-    }
-
-}
-
 
 @media  screen and (max-width:480px) {
     .social-networks{
@@ -635,6 +628,12 @@ h4 {
 
 @media screen and (max-width:480px) {
     .about-container .title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .content .article a {
         font-size: 16px;
     }
 }
