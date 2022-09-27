@@ -39,17 +39,25 @@
 I decided to create a fictitious kiddies club located in Rotterdam, Netherlands. A kiddies club encouraging learning, socializing and playing. In the website, I Showcased some activities we had recently.
 In the website, there is a landing page and three additional pages to create a simple and attractive website for Kids. This project is to showcase efficiency in HTML and CSS website. I hope to create a front end application,
 which can be used easily by users.
+***
+## FEATURES
+***
+### EXISTING FEATURES
+- __Navigation Bar__
+- Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home, About Us, Gallery and Sign up page and it is identical in each page to allow access to easy navigation.
+- This section will allow users navigate easily from page to page across all devices without having to revert back to the previous page via the 'back' button.
 
 ## UX &#8722; User Experience Design
 ### User Stories
-Some example user stories which will affect the design
  
-- *"As a first time visitor, I want to know what this site is about. I may use a number of different devices (mobile/tablet etc.) to view the site. I would like to be able to navigate easily"*
-- *"As a returning visitor, I want to take a look at some different galleries and possibly some social media links. I am interested in learning a little more about Katie, but I really do like the photographs"*
-- *"As an interested person, I would like to see some of Katie's work. I want to be able to contact Katie, perhaps connect with her via social media"*
+- As a first time website user, I want to know what this site is about and would like to navigate easily.
+- As a website user, I want to know the past activities organised for the kids club.
+- As a website user, I want to be able to contact the organisers and inquire or ask necessary questions.
+- As a website user, I want to know where you are located through google maps.
+- As a website user, I want to be able to sign up to the website.
+As a website use, I want to be able to visit your social media handles.
 ***
-### Initial Concept
-With photographic images featuring as a really important aspect of the site, I  hope to keep the design fairly free from other distractions. I anticipate using a fairly neutral colour scheme as I feel this will allow the content images to stand out more from the design aspects. The application is to be designed with 'mobile first' in mind
+
 #### Wireframes
 <!-- wireframe images and link to more -->
 Home
