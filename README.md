@@ -47,6 +47,9 @@ which can be used easily by users.
 - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home, About Us, Gallery and Sign up page and it is identical in each page to allow access to easy navigation.
 - This section will allow users navigate easily from page to page across all devices without having to revert back to the previous page via the 'back' button.
 
+![Top Nav]
+
+
 ## UX &#8722; User Experience Design
 ### User Stories
  

@@ -525,7 +525,7 @@ h4 {
 
 /* Media Queries */
 
-/* For medium screens size from 950px wide and down */
+/* For medium screens size from 980px wide and down */
 @media screen and (max-width: 980px) {
     #logo {
         width: 253px;
