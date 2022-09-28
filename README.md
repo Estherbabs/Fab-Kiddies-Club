@@ -11,11 +11,10 @@
    - __Our Activities Section__
    - __Contact Us Section__
    - __Footer__
-   - __About us__
+   - __About Us__
    - __Club section__
    - __Gallery__
    - __Sign up page__
-- [Features Left to Implement](#Features-Left-to-Implement)
 - [UX &#8722; User Experience Design](#UX-&#8722;-User-Experience-Design)
 - [User Stories](#user-stories)
 - [Wireframes](#Wireframes)
@@ -47,7 +46,58 @@ which can be used easily by users.
 - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home, About Us, Gallery and Sign up page and it is identical in each page to allow access to easy navigation.
 - This section will allow users navigate easily from page to page across all devices without having to revert back to the previous page via the 'back' button.
 
-![Top Nav]
+<img width="928" alt="Capture" src="https://user-images.githubusercontent.com/108898698/192704052-13d5c548-ba66-41e5-892c-057af956f395.PNG">
+
+- __The landing page image__
+- The landing page includes a photography with a text overlay to allow users see the reason why the kids club was created. This section introduces the user to Fab Kiddies Club with an outstanding animation to attract their interest.
+
+<img width="941" alt="Capture" src="https://user-images.githubusercontent.com/108898698/192706124-e7a0fa95-7338-4e88-add7-800d7d399089.PNG">
+
+- __Our Activities Section__
+- Our Activities section makes users see the some of the activities, we organised for the kids. This is includes to allow users get excited by joining the fab kiddies club.
+
+<img width="924" alt="Capture" src="https://user-images.githubusercontent.com/108898698/192707394-199c41e0-dea6-48cf-baf9-694350c25350.PNG">
+
+
+- __Contact Us Section__
+- This section is to allow users make more enquiries about the kiddies club. They can ask all the questions they wish to ask.
+
+<img width="857" alt="Capture" src="https://user-images.githubusercontent.com/108898698/192708425-eb61f1d3-3d2b-4190-9dbc-2c9ad166a167.PNG">
+
+
+- __Footer__
+- The footer section includes links to social media sites for Fab Kiddies Club. The links opens in a new tab to allow user navigate easily.
+- Users are quite interested in social media and this footer section encourages website users to keep connected via social networks.
+
+<img width="488" alt="Capture" src="https://user-images.githubusercontent.com/108898698/192711674-e6458ac1-d89b-4a2e-a111-300a66cc2667.PNG">
+
+
+- __About Us__
+- This section tells the user most things the user wants to know, the person who created the club, the place and the year the club was established. Furthermore, from this about us section, users will know the intention behind creating the kiddies club.
+
+<img width="864" alt="Capture" src="https://user-images.githubusercontent.com/108898698/192713428-7b607088-9878-49ac-9103-02c2e2517c10.PNG">
+
+
+- __Club section__
+- This section shows a beautiful photograph of two kids pointing at the sea, with a dark overlay and our favourite quote *We love Fab kiddies club*. This section is to excite the user in the process of going through the website.
+
+<img width="947" alt="Capture" src="https://user-images.githubusercontent.com/108898698/192714743-bebfe207-6346-43c9-8f32-f9081b9ee079.PNG">
+
+
+- __Gallery__
+- The gallery section is to provide the website user with supporting images to see what the activities we have organised for our kids look like. 
+-This section is valuable to users as they will be able to identify the types of events we put together.
+
+<img width="931" alt="Capture" src="https://user-images.githubusercontent.com/108898698/192715720-c904ef11-6084-4383-8646-cbc1f34448af.PNG">
+
+- __Sign up page__
+- This page will encourage the users to get signed up to Fab Kiddies Club to makes kids learn while having fun.
+- The user will be asked to submit their names and email address.
+
+<img width="283" alt="Capture" src="https://user-images.githubusercontent.com/108898698/192716849-ce452968-bec7-455d-80fc-82fbf74b1b32.PNG">
+
+
+
 
 
 ## UX &#8722; User Experience Design
