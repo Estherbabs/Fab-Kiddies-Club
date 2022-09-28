@@ -113,16 +113,7 @@ As a website use, I want to be able to visit your social media handles.
 
 #### Wireframes
 <!-- wireframe images and link to more -->
-Home
-![Home Page Wireframe](./readme-content/images/mob-home.png)
-Gallery Selection
-![Gallery Selection Wireframe](./readme-content/images/mob-gallery-select.png)
-Gallery Page
-![Gallery Page Wireframe](./readme-content/images/mob-gallery.png)
-About
-![About Wireframe](./readme-content/images/mob-about.png)
-Contact
-![Contact Wireframe](./readme-content/images/mob-contact.png)
+- Mobile, Ipad and Desktop wireframes are all available below:
 *See [here](./readme-content/wireframe) for other device types*
 ***
 #### Colour Scheme
@@ -152,64 +143,6 @@ As the main feature of the website, the imagery will be from Katie's personal co
 
 The images will be compressed using *[Compressor.io](https://compressor.io/)*
 ***
-## Features
- 
-### Existing Features
-<!-- - Feature 1 - allows users X to achieve Y, by having them fill out Z -->
-1. The design is made with mobile first in mind
->*"As a visitor ... **I may use a number of different devices**"*
-- *the media queries in the CSS file are done in a way to keep the aesthetics of the site looking OK across the majority of screen sizes*
-***
-2. The header will be visible on all pages and have a maintained style throughout
->*"As a visitor ... **I would like to be able to navigate easily**"*
-- *the nav menu is accessible at the bottom of the header and sticks to the top of the page if scrolled*
-***
-3. The header content is brief and informative and contains a couple of images
->*"As a first time visitor ... **I want to know what this site is about**"*
-- *the text content in the header indicates exactly what this site is about. The images are relevant and one intends to provide a positive emotive response*
-
-    ![Header Snip](./readme-content/images/header-snip.png)
-***
-4. The home page has a large image showing animal photography
->*"As a first time visitor...**I want to know what this site is about**"*
-
->*"As a returning visitor...**I really do like the photographs**"*
-- *the hero image shows off the type of photography included in the website, on certain devices, a few images are displayed for a little variety*
-
-    ![Home Image Snip](./readme-content/images/home-img.png)![Desktop Images](./readme-content/images/desktop-imgs.png)
-***
-5. The footer element has accessible icons which link to social media platforms
->*"As a returning visitor...**some social media links**"*
-
->*"As an intersted person ... **connect with her via social media**"*
-- *the social media links will be available on all pages. On all devices, the home page features a fixed footer, which is visible as soon as the page loads no matter the device type*
-
-    ![Footer Snip](./readme-content/images/footer-snip.png)
-***
-6. The galleries are separated into different categories
->*"As a returning visitor...**look at some different galleries**...**I really do like the photographs**"*
-- *the gallery images and styling allows clear identification of the various galleries*
-
-    ![Galleries Snip](./readme-content/images/galleries.png)
-***
-7. The about page allows a little insight into the person behind the photographs
->*"As a returning visitor...**I am interested in learning a little more about Katie**"*
-- *the about page gives some basic information about Katie's achievments and what she does. It also contains an image of her so people may recognise her*
-
-    ![About Snip](./readme-content/images/about.png)
-***
-8. The contact page allows enquiries to be sent directly to Katie
->*"As an interested person...**I want to be able to contact Katie**"*
-- *the contact form is **not currently active** as it requires languages I have yet to learn. The form is there to demonstrate the html structure and style*
-
-    ![Contact Snip](./readme-content/images/contact.png)
-***
-The footer element contains a link to my GitHub and linked in profiles
->BONUS
-- *the design of the footer allows for discrete links to me, should any visitors wish to know more about the site's creator (yellow border imposed on screenshot for demonstration purposes)*
-
-    ![Footer Highlight](./readme-content/images/footer-highlight.png)
-***
 ### Features Left to Implement
 1. I would like to have the nav menu disappear when viewed via a landscape orientation on mobile devices
     - *The nav bar takes up valuable screen real estate on smaller devices. I would like to change the camera icon in the header to a menu icon on certain screens. This icon would act as a drop down activator for the nav menu, allowing more space for photographs*
@@ -224,25 +157,14 @@ The footer element contains a link to my GitHub and linked in profiles
 <!-- In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used. -->
 - *[Balsamiq](https://balsamiq.com/)*
     - Balsamiq was used to create [wireframes](./readme-content/wireframes.md) for the project
-- *[Compressor.io](https://compressor.io/)*
-    - All images within the project have been processed through their free compression service
 - *[Font Awesome](https://fontawesome.com/)*
     - The project uses icons from Font Awesome version 5
 - *[Coolors.co](https://coolors.co)*
     - The colour scheme, and subsequent shades and tones, were generated via this application
-- *[Visual Studio Code](https://code.visualstudio.com/)*
-    - I have used this IDE as I had a very limited experience with an older version. The extensions available have allowed me to customize my workspace and become more efficient
-        - Special mention to *[YuichiNukiyama](https://github.com/YuichiNukiyama)* for their *[Preview on Web Server](https://github.com/YuichiNukiyama/vscode-preview-server)* extension as this allowed a very quick visual representation of changes made
 - *[Chrome DevTools](https://developer.chrome.com/docs/devtools/)*
     - Once the website was made to a basic deployment level, this extension featured heavily as I modified sizings and spacings
 - *[Google Fonts](https://fonts.google.com/)*
     - The fonts used in the website are imported from Google Fonts
-- *[Multi Device Mockup Generator](https://techsini.com/multi-mockup/index.php)*
-    - The image at the top of this document was created using a free service provided by TechSini.com
-- *[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)*
-    - I put the relevant hex colour values in to the contrast checker to unsure good results, this is why a second colour scheme was generated
-- *[a11y Contrast Accessibility Validator](color.a11y.com)*
-    - I ran the finished website through this check service to double check contrasts on the final version
 - *[W3C Markup Validation Service](validator.w3.org)*
     - I used this service to check the HTML and CSS files for errors. During development, I copied the entire text from the files and ran them through the direct input method
 ***
