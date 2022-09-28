@@ -123,7 +123,7 @@ About
 ![About Wireframe](./readme-content/images/mob-about.png)
 Contact
 ![Contact Wireframe](./readme-content/images/mob-contact.png)
-*See [here](./readme-content/wireframes.md#tablet) for other device types*
+*See [here](./readme-content/wireframe) for other device types*
 ***
 #### Colour Scheme
 A neutral colour scheme created using *[coolors.co](https://coolors.co)*
