@@ -143,24 +143,15 @@ As the main feature of the website, the imagery will be from Katie's personal co
 
 The images will be compressed using *[Compressor.io](https://compressor.io/)*
 ***
-### Features Left to Implement
-1. I would like to have the nav menu disappear when viewed via a landscape orientation on mobile devices
-    - *The nav bar takes up valuable screen real estate on smaller devices. I would like to change the camera icon in the header to a menu icon on certain screens. This icon would act as a drop down activator for the nav menu, allowing more space for photographs*
-    - The sticky position applied to the header is a workaround until I can research the drop down menu in greater depth. When the pages are scrolled, it allows the main header content to disappear, but keeps the nav menu visible. I have done some research into hidden menu's and am confident with the CSS methods to achieve this, however, there appears to be an issue with screen readers and assistive technologies. I do not wish to implement a feature which causes accessibility issues. With the research I have done, this feature would be too time consuming to implement at present for too little gain
-2. The form on the contact page currently does not send information anywhere. 
-    - The limitation of this project is to use CSS and HTML and so I have not yet learned about creating the necessary scripting behind the form. I have chosen to leave the form on the website to show comprehension of the form element, however **the 'action' and 'method' attributes have been removed** to prevent any issue with errors
-3. If Katie decides to add a blog at a later date it will require a re-work of the navigation bar
-    - As with note 1 above, I would look to implement a menu structure which allows the additional content to be revealed. I would use this method for the gallery selections, possibly removing the galleries.html page altogether, and would modify the structure of the navigation. The "about" page would sit within a sub menu with "blog" and would fall under a title along the lines of "other" to indicate it does not contain photographs
+
 ***
 ## Technologies Used
 
 <!-- In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used. -->
 - *[Balsamiq](https://balsamiq.com/)*
-    - Balsamiq was used to create [wireframes](./readme-content/wireframes.md) for the project
+    - Balsamiq was used to create [wireframes](./readme-content/wireframe) for the project
 - *[Font Awesome](https://fontawesome.com/)*
     - The project uses icons from Font Awesome version 5
-- *[Coolors.co](https://coolors.co)*
-    - The colour scheme, and subsequent shades and tones, were generated via this application
 - *[Chrome DevTools](https://developer.chrome.com/docs/devtools/)*
     - Once the website was made to a basic deployment level, this extension featured heavily as I modified sizings and spacings
 - *[Google Fonts](https://fonts.google.com/)*
