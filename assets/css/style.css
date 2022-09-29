@@ -85,7 +85,7 @@ h3 {
 #hero-image {
     height: 100vh;
     width: 100vw;
-    background: url('../images/Children-playing-outside.jpg') no-repeat center center;
+    background: url('../images/kids-playing-outside-medium.jpg') no-repeat center center;
     background-size: cover;
     transition: transform 2s;
 }
