@@ -114,7 +114,7 @@ As a website use, I want to be able to visit your social media handles.
 #### Wireframes
 <!-- wireframe images and link to more -->
 - Mobile, Ipad and Desktop wireframes are all available below:
-*See [here](./readme-content/wireframe) for other device types*
+*See [here](./readme-content/wireframe) 
 ***
 #### Colour Scheme
 A neutral colour scheme created using *[coolors.co](https://coolors.co)*

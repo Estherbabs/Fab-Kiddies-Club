@@ -54,8 +54,7 @@ h3 {
 /* nav */
 
 .topnav {
-    font-size: 73%;
-    letter-spacing: 4px;
+
     overflow: hidden;
 }
 
@@ -164,7 +163,7 @@ h3 {
 
 .box p {
     font-size: 15px;
-    margin-top:10px ;
+    margin-top: 10px;
 }
 
 .box img {
@@ -187,7 +186,7 @@ h3 {
     border-radius: 10px;
     background: #fff;
     box-shadow: 0px 0px 10px 0px #666;
-   
+
 }
 
 .contact-map {
@@ -269,7 +268,7 @@ footer {
 .social-networks {
     text-align: center;
     padding-bottom: 25px;
-    color:#666;
+    color: #666;
     clear: both;
     display: inline-flex;
 }
@@ -286,13 +285,13 @@ footer {
     margin: 0 8px;
     opacity: 0.75;
 }
- 
+
 
 /* about-container */
 
 .about-container {
-  width: 100%;
-min-height: 100vh;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .about-container .title {
@@ -306,8 +305,8 @@ min-height: 100vh;
     padding: 50px 0px;
 }
 
-.about-container .title h1::after{
-    content:"";
+.about-container .title h1::after {
+    content: "";
     height: 6px;
     width: 180px;
     border-radius: 6px;
@@ -361,10 +360,10 @@ min-height: 100vh;
 
 /* club */
 #club {
-    background-image: url('../images/fab-kids-club-2.jpg') ;
+    background-image: url('../images/fab-kids-club-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:top;
+    background-position: top;
     width: 100%;
     height: 350px;
     overflow: hidden;
@@ -378,7 +377,7 @@ min-height: 100vh;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border: 2px solid white ;
+    border: 2px solid white;
     box-sizing: border-box;
 }
 
@@ -400,7 +399,7 @@ min-height: 100vh;
     font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    padding: 50px 0px; 
+    padding: 50px 0px;
 }
 
 .grid-inner {
@@ -496,7 +495,7 @@ h4 {
     border: 1px solid rgb(212, 164, 164, .7);
     border-radius: 6px;
     outline: none;
-    
+
 }
 
 .signup-box input[type="button"] {
@@ -531,40 +530,39 @@ h4 {
 /* For medium screens size from 800px wide and down */
 @media screen and (max-width: 800px) {
     #logo {
+        font-size: 122%;
+        letter-spacing: 4px;
         font-weight: bolder;
         align-items: center;
         justify-content: space-evenly;
     }
-    
-    .topnav{
-        display: flex;
-        width: 100%;
-        flex-direction: column-reverse;
-        font-size: 95%;
-        letter-spacing: 3px;
+
+    .topnav {
+        font-size: 77%;
+        letter-spacing: 2px;
     }
-  
+
 
     .section-header h2 {
         font-size: 1em;
     }
-    
+
     .container {
         flex-direction: column;
         width: 50%;
         height: 1000px;
-        align-items: center ;
+        align-items: center;
         margin: 0 auto;
         padding: 10px;
-     }
-
-
-     .box {
-        width: 100%;
-       
     }
 
-    .box p{
+
+    .box {
+        width: 100%;
+
+    }
+
+    .box p {
         font-size: 13px;
         margin-top: -1px;
     }
@@ -583,15 +581,15 @@ h4 {
 /* For small screens from 600px wide and down */
 
 @media only screen and (max-width:600px) {
-    #logo{
-        width: 253px;
+    #logo {
+        letter-spacing: 4px;               
         font-size: 18px;
         font-weight: bolder;
         align-items: center;
         justify-content: space-evenly;
     }
- 
-    .topnav{
+
+    .topnav {
         display: flex;
         width: 100%;
         flex-direction: column-reverse;
@@ -608,7 +606,7 @@ h4 {
     .container {
         flex-direction: column;
         width: 80%;
-        align-items: center ;
+        align-items: center;
         margin: 0 auto;
     }
 
@@ -627,7 +625,14 @@ h4 {
         font-size: 25px;
     }
 
-   
+    .contact-form-textarea {
+        width: 90%;
+    }
+
+    .contact-form-txt {
+        width: 93%;
+    }
+
 
     .about-container .title {
         font-size: 16px;
@@ -640,7 +645,7 @@ h4 {
     }
 
 
-    .content .article a { 
+    .content .article a {
         font-size: 17px;
         text-decoration: none;
         display: flex;
@@ -653,7 +658,7 @@ h4 {
 
     #club div {
         width: 100%;
-        clear:both;
+        clear: both;
         height: 73px;
         padding: 7px;
     }
@@ -678,6 +683,3 @@ h4 {
         flex: 1 1 20%;
     }
 }
-
-
-
