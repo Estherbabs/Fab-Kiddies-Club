@@ -106,7 +106,6 @@ which can be used easily by users.
 - As a first time website user, I want to know what this site is about and would like to navigate easily.
 - As a website user, I want to know the past activities organised for the kids club.
 - As a website user, I want to be able to contact the organisers and inquire or ask necessary questions.
-- As a website user, I want to know where you are located through google maps.
 - As a website user, I want to be able to sign up to the website.
 As a website use, I want to be able to visit your social media handles.
 ***
@@ -139,15 +138,11 @@ The website will not feature a great deal of text. The fonts are imported into t
 - **Raleway** has been chosen as the font for any areas featuring a higher volume of text. The font is more standard but maintains a sense of personal feel with its rounded styling and light weight.  A fallback font of **Trebuchet MS** is used as it maintains the light weight appearance. A fallback family of **sans-serif** is used to maintain a contrast to the fallback of the other text elements in the website
 ***
 #### Imagery
-As the main feature of the website, the imagery will be from Katie's personal collections.  Many of the images are large files, and so will be compressed for quicker load times. The image in the header should be friendly and not too complex. The content images will be arranged into categories to allow a number of galleries to be presented.
-
-The images will be compressed using *[Compressor.io](https://compressor.io/)*
+I wanted the website to look attractive to users, most especially kids and that's why I decided to go with pictures of kids playing, camping, making crafts and painting. All the images were downloaded from *[pexel.com](https://pexel.com/)*
 ***
 
-***
 ## Technologies Used
 
-<!-- In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used. -->
 - *[Balsamiq](https://balsamiq.com/)*
     - Balsamiq was used to create [wireframes](./readme-content/wireframe) for the project
 - *[Font Awesome](https://fontawesome.com/)*
@@ -156,14 +151,14 @@ The images will be compressed using *[Compressor.io](https://compressor.io/)*
     - Once the website was made to a basic deployment level, this extension featured heavily as I modified sizings and spacings
 - *[Google Fonts](https://fonts.google.com/)*
     - The fonts used in the website are imported from Google Fonts
-- *[W3C Markup Validation Service](validator.w3.org)*
+- *[W3C Validation Service](validator.w3.org)*
     - I used this service to check the HTML and CSS files for errors. During development, I copied the entire text from the files and ran them through the direct input method
 ***
 ## Testing
-As the website is written purely with HTML and CSS, the testing carried out will ensure the visual and functional aspects of the site work as intended. I will test on a number of browsers and screen sizes. I also intend to test the website for accessibility, validation and SEO
-- *All anchor elements should work as intended and external links should open in new tabs*
+- I tested this page works in different browsers: Chrome, Safari and Firefox.
+- I have tested this project to see that it is responsive and it works as intended.
+- *All website user 
 - *All user requirements should be addressed and tested*
-- *Contrast checks should report no errors (without explanation)*
 - *Validation checks should report no errors*
 - *Lighthouse testing scores should be high (ideally above 90)*
 

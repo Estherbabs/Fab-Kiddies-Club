@@ -629,7 +629,7 @@ h4 {
     .content {
         width: 100%;
         margin: 29px auto;
-        height: 567px;
+        height: 550%;
     }
 
 
@@ -637,13 +637,16 @@ h4 {
         font-size: 17px;
         text-decoration: none;
         display: flex;
-        padding: 8px 84px;
+        padding: 8px 115px;
         border-radius: 19px;
         border: 1px solid rgb(212, 164, 164, .4);
         letter-spacing: 0.5em;
         margin-top: -5px;
     }
 
+    .content .article p {
+        font-size: 16px;
+    }
     #club div {
         width: 100%;
         clear: both;
