@@ -22,7 +22,7 @@
     - [Typography](#Typography)
     - [Imagery](#Imagery)
 
-- [Technologies Used](#Technologies-Used)
+- [Technologies](#Technologies)
 - [Testing](#Testing)
     - [Validation Results - Separate Document]
 - [Resolved Bugs]
@@ -34,8 +34,7 @@
 
 ## INTRODUCTION
 I decided to create a fictitious kiddies club located in Rotterdam, Netherlands. A kiddies club encouraging learning, socializing and playing. In the website, I Showcased some activities we had recently.
-In the website, there is a landing page and three additional pages to create a simple and attractive website for Kids. This project is to showcase efficiency in HTML and CSS website. I hope to create a front end application,
-which can be used easily by users.
+In the website, there is a landing page and three additional pages to create a simple and attractive website for Kids. This project is to showcase efficiency in HTML and CSS website. I hope to create a front end application, which can be used easily by users.
 
 ![Screenshot 2022-09-30 at 04 39 38](https://user-images.githubusercontent.com/108898698/193185444-dc20eb29-7432-4bd4-9568-82fef8513464.png)
 
@@ -45,7 +44,7 @@ which can be used easily by users.
 ### EXISTING FEATURES
 - __Navigation Bar__
 - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home, About Us, Gallery and Sign up page and it is identical in each page to allow access to easy navigation.
-- This section will allow users navigate easily from page to page across all devices without having to revert back to the previous page via the 'back' button.
+- This section will make users navigate easily from page to page across all devices.
 
 <img width="928" alt="Capture" src="https://user-images.githubusercontent.com/108898698/192704052-13d5c548-ba66-41e5-892c-057af956f395.PNG">
 
@@ -125,7 +124,7 @@ As a website use, I want to be able to visit your social media handles.
 I wanted the website to look attractive to users, most especially kids and that's why I decided to go with pictures of kids playing, camping, making crafts and painting. All the images were downloaded from *[pexel.com](https://pexel.com/)*
 ***
 
-## Technologies Used
+## Technologies
 
 - *[Balsamiq](https://balsamiq.com/)*
     - Balsamiq was used to create [wireframes](./readme-content/wireframe) for the project
