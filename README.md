@@ -18,20 +18,18 @@
 - [UX &#8722; User Experience Design](#UX-&#8722;-User-Experience-Design)
 - [User Stories](#user-stories)
 - [Wireframes](#Wireframes)
-    - [All Wireframes - Separate Document](./readme-content/wireframes.md)
-    - [Colour Scheme](#Colour-Scheme)
+    - [All Wireframes - Separate Document](./readme-content/wireframes)
     - [Typography](#Typography)
     - [Imagery](#Imagery)
 
 - [Technologies Used](#Technologies-Used)
 - [Testing](#Testing)
-    - [Validation Results - Separate Document](./readme-content/w3c.md)
-- [Resolved Bugs](#Resolved Bugs)
+    - [Validation Results - Separate Document]
+- [Resolved Bugs]
 - [Deployment](#Deployment)
 - [Credits](#Credits)
-    - [Content](#Content)
-    - [Media](#Media)
-    - [Acknowledgements](#Acknowledgements)
+- [Media](#Media)
+   
 ***
 
 ## INTRODUCTION
@@ -69,7 +67,8 @@ which can be used easily by users.
 - The footer section includes links to social media sites for Fab Kiddies Club. The links opens in a new tab to allow user navigate easily.
 - Users are quite interested in social media and this footer section encourages website users to keep connected via social networks.
 
-<img width="488" alt="Capture" src="https://user-images.githubusercontent.com/108898698/192711674-e6458ac1-d89b-4a2e-a111-300a66cc2667.PNG">
+![Screenshot 2022-09-30 at 04 19 15](https://user-images.githubusercontent.com/108898698/193182979-91c30c5d-1551-40cd-8ef4-2ccc5933c86b.png)
+
 
 
 - __About Us__
@@ -115,27 +114,9 @@ As a website use, I want to be able to visit your social media handles.
 - Mobile, Ipad and Desktop wireframes are all available below:
 *See [here](./readme-content/wireframe) 
 ***
-#### Colour Scheme
-A neutral colour scheme created using *[coolors.co](https://coolors.co)*
-
-![Colour Scheme](./readme-content/images/khp-color.png)
-
-The scheme applied to the home page
-![Colours Applied](./readme-content/images/mob-col-1.png)
-
-*Some colours used in the final project may be shades of those listed, generated using [coolors.co](https://coolors.co)*
-
-**I had not run the colour combinations through a contrast checker before commencing the project.** A revised colour scheme is shown below
-![Revised Colour Scheme](./readme-content/images/khp-color-1.2.png)
-Unfortunately the colours originally chosen gave a poor result unless taken to the extremes of light and dark. I have generated a new colour theme, again with some shades and tones to be used. The main changes are the lightening of the header and footer, and the font colour within those elements has been changed to purple
-![Purple Font Change](./readme-content/images/header-purple-font.png)
-***
 #### Typography
-The website will not feature a great deal of text. The fonts are imported into the CSS file from *[Google Fonts](https://fonts.google.com/)*
-- **Caveat** has been chosen as the main font for the title text. It is a friendly font which gives a more personal appearance. The fallback family of **cursive** maintains the personal appearance
-- **Dancing Script** has been chosen for the 'tag line' font. The font is more calligraphic and exudes a stylish tone, relatable to the photographic content of the website. The fallback family of **cursive** means the overall style will be maintained in the event some fonts fail to render
-- **Indie Flower** has been chosen as the nav menu and secondary page's title font. It maintains the welcoming mood of the site, hoping to maintain positive user experiences. As with the other larger text elements, the fallback font remains as **cursive**
-- **Raleway** has been chosen as the font for any areas featuring a higher volume of text. The font is more standard but maintains a sense of personal feel with its rounded styling and light weight.  A fallback font of **Trebuchet MS** is used as it maintains the light weight appearance. A fallback family of **sans-serif** is used to maintain a contrast to the fallback of the other text elements in the website
+ The fonts are imported into the CSS file from *[Google Fonts](https://fonts.google.com/)*
+- **Source San Pro** has been chosen as the main font for the title text. I chose it because it looks like its easy to read and clear for kids. The fallback family of **San Serif** maintains the personal appearance.
 ***
 #### Imagery
 I wanted the website to look attractive to users, most especially kids and that's why I decided to go with pictures of kids playing, camping, making crafts and painting. All the images were downloaded from *[pexel.com](https://pexel.com/)*
@@ -157,201 +138,39 @@ I wanted the website to look attractive to users, most especially kids and that'
 ## Testing
 - I tested this page works in different browsers: Chrome, Safari and Firefox.
 - I have tested this project to see that it is responsive and it works as intended.
-- *All website user 
-- *All user requirements should be addressed and tested*
-- *Validation checks should report no errors*
-- *Lighthouse testing scores should be high (ideally above 90)*
+- All website user must-haves has been addressed and tested.
+- Validation checks came back with no error.
+- I also tested with lighthouse and it reflected a desirable results.
+- All anchor elements have been tested to ensure the correct href value has been used and external links open in new tabs.
+- Each page has been run through the W3C markup validation service, the index page and CSS reports are shown below
+![index.html Validation](./readme-content/W3C-HTML.png)
+![CSS Validation](./readme-content/W3C-CSS.png)
 
-I have loaded the website in Chrome, Firefox and Edge. Each browser displayed as intended and the responsive design functioned as intended. Further to testing in the developer tools option of each browser, I have used a number of mobile devices to ensure the website functions and appears OK across all devices
-- *Having used "vh" for some sizing means you need to scroll on certain devices to see the full page. This appears to be due to the address bar/status bar and is something I will research before my next project*
+- I have run the entire website through Chrome's lighthouse audit service and the results are shown below.
 
-All anchor elements have been tested to ensure the correct href value has been used and external links open in new tabs 
+![Mobile Lighthouse Results](./readme-content/lighthouse.png)
 
-All user requirements have been addressed and tested as shown in [Existing Features](#Existing-Features)
-
-I have input various formats of data into the form on the contact page. As expected, the form requires all entries to be completed, will only allow a valid e-mail (with @ included), and returns an error message if submit is selected without the form being completed. ***The page will refresh if all parameters are correct and submit is selected** - See [Features Left to Implement - 2.](#Features-Left-To-Implement)*
-
-I have run the website through [a11y Contrast Accessibility Validator](color.a11y.com) and the result is shown below
-![Contrast Check Results](./readme-content/images/testing/contrast-check.png)
-*As shown in the image, there is one failure on this test. The failed element is the footer text, which links to me as an author of the website, and I am happy to leave this as it is. The element in question is intended to be subtle and is not relevant to the content of the site. I believe changing the style of this element to pass the contrast check could cause it to distract from the purpose of the main site*
-
-Each page has been run through the W3C markup validation service, the index page and CSS reports are shown below
-![index.html Validation](./readme-content/images/testing/index-validate.png)
-![CSS Validation](./readme-content/images/testing/css-validate.png)
-All page tests are shown [here](w3c.md) and I have included a brief explanation of the 3 warnings shown on the CSS validation
-
-I have run the entire website through Chrome's lighthouse audit service and the results are shown below
-- Mobile
-
-![Mobile Lighthouse Results](./readme-content/images/testing/lighthouse-mob.png)
-- Desktop
-
-![Desktop Lighthouse Results](./readme-content/images/testing/lighthouse-desktop.png)
+![Desktop Lighthouse Results](./readme-content/lighthouse.png)
 ***
 ## Bugs
-### Current
-- Having tested the website via GitHub Pages and viewing on an iOS device (iPhone XR), some sizing is not correct and leads to a bad UX
-
-*This appears to be due to the methods of spacing and sizing I have used. At this stage, I am not going to attempt to fix this as the UX is only slightly effected and more research leads me to believe the media queries I have used are not specific enough for iOS products*
-***
-### Resolved
-**Rework of media queries means some fixes are no longer included in the deployed version. Bug fixes left in README to show method and progression**
-1. The anchor elements in the nav section do not span the 'tab' which they sit in. More evident on wider screens, could lead to bad UX
-
-***index.html** - lines - **33 - 35***
-~~~
-    <li class="active">
-        <a href="./index.html">home</a>
-    </li>
-~~~
-*Original Fix*
-
-*Putting the text in a div as a child of the anchor has resolved the issue. The div is a  block element, and so, fills the width of the anchor. This reduces the chance of a bad UX from the tab not accepting user input even though it has changed colour*
-
-***index.html** - lines - **31 - 37***
-~~~
-    <li class="active">
-        <a href="./index.html">
-            <div>
-                home
-            </div>
-        </a>
-    </li>
-~~~
-*Commit - **[9ed8b54](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/9ed8b5488bbbd882e5775e213c983fddad779b27#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051R32-R57)***
-
-***Revised Fix***
-
-*Setting a size to the nav anchor elements, via the CSS stylesheet, has allowed the divs to be removed from within the list elements*
-
-***style.css** - lines - **107 - 113***
-~~~
-nav a {
-    display: block;
-    width: calc(100% + .8em);
-    position: relative;
-    left: -.4em;
-    height: calc(100% + .2em);
-}
-~~~
-
-***index.html** - lines - **33 - 55***
-~~~
-<li class="active">
-    <a href="./index.html" title="Home">home</a>
-</li>
-~~~
-*Commit - **[ead1d8d](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/ead1d8d09a0ab949ef7d8777e88910d37be40dd4#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR106-R112)***
-
-*Commit - **[578d1ad](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/578d1ad4be8678219fd2efdc31686ceef30bb7ad)***
-
-*Commit - **[3109537](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/3109537f1ad19d972f4c4e668d4598d3bf62d58f)***
-***
-2. The text in the overlay container overflows out the top on smalls screens
-![Text Overflow](./readme-content/images/text-overflow.png)
-
-*Issue dealt with during modifying media queries. Commits between 14:00 - 15:20 on 08/05/2021. Consisted of some font-size changes and alteration to the max-height of the containing div*
-***
-3. The footer encroaches far too much into the screen space on small landscape screens
-
-*Commit - **[9831174](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/98311749f1d119f4469e0e60d142e9734ed9b789#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeL398)** - removed font-size change from **style.css** line **398***
-***
-4. Some screen sizes cause the lower section of overlay text to be obscured by the footer
-
-*Commit - **[fb5cc65](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/fb5cc65e3a87240f06642a4cad651c5f7c30349b)** - altered min-height value to be responsive up to 700px. From 700px, apply a minimum height value which allows the entire content to be viewed*
-
-*Commit - **[6cfe816](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/6cfe816bf42ac0e03b51c5331cc896e74dde2ac9#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR363)** - at screen min-width of 1200px, the min-height is removed to prevent obscure lower margins on the content*
-***
-5. The icons which link to my GitHub and LinkedIn only work at the very bottom of the rendered icon
-
-***style.css** - lines - **183 - 185***
-~~~
-footer span a {
-    position: relative;
-}
-~~~
-*Setting the position to relative appears to have resolved the issue. I believe this causes the anchor element's z-index to be higher than the FontAwesome icon. When I have more time, I will try and research more about the class and styling applied by FontAwesome*
-
-*Commit - **[5847e65](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/5847e655d53517ef85bfbe9b267e1f437a5b6f4a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR183-R185)***
+- No unfixed bugs
 ***
 ## Deployment
-Throughout the project, I have used VSCode with source control and a number of extensions. I have also used GitHubs desktop application. The two programs have allowed me to stage and commit files as and when necessary. Once committed, deploying the project to a live site has been achieved via the following
+Throughout the project, I have used GitHubs application. This program have allowed me to stage and commit files as and when necessary. Once committed, deploying the project to a live site has been achieved.
 
-**Github Pages**
-- Navigate to the relevant GitHub Repository [here](https://github.com/DaveyJH/ci-portfolio-one-v4)
-- Select "Settings" from the options below the name of the repository
-
-![Settings Snip](./readme-content/images/github-settings.png)
-- Select "Pages" from the left hand menu
-
-![Pages Snip](./readme-content/images/pages-select.png)
-- Select "Branch: main" as the source and leave the directory as "/(root)"
-
-![Source Snip](./readme-content/images/pages-source.png)
-
-- Click the Save button
 
 - Take note of the URL provided
 
-![URL Snip](./readme-content/images/pages-url.png)
+![URL Snip](./readme-content/url.png)
 
-- GitHub takes a short while to publish the page. The bar turns green if you refresh the pages tab and the page has been deployed
-
-![Confirmed Deployment Snip](./readme-content/images/pages-deployed.png)
 - Click the link or copy the URL to a browser to reach the deployed page
-https://daveyjh.github.io/ci-portfolio-one-v4/
+https://estherbabs.github.io/Fab-Kiddies-Club/
 
-The site is now live and operational
+The site is now live.
 ***
 ## Credits
+- The codes to make the cover page was taken from the CI Love running project.
+- The codes for the foreground in my about me page was also taken from CI love running project.
 
-### Content
-- The idea to link to lines of code within GitHub commits came from *[Chase Woodford](http://www.chasewoodford.com/blog/linking-highlighted-lines-code-github/)*
-- I must pay thanks to my sister, Katie Horrocks. Her passion for photography has enabled me to design and produce a project which I have thouroughly enjoyed working on
 ### Media
-- The photos are from Katie's personal albums and she has given permission for me to use them so as not to infringe her copyrights
-    - The silhouette background image is from [Unsplash](https://unsplash.com)
-### Acknowledgements
-- I would like to thank my Code Institute mentor, [Spencer Barriball](https://github.com/5pence), for the guidance and encouragement given throughout the project. Following his advice, I have really refined the project and am very happy with the result
-- Thanks to jo_ci at Code Institute for pointing me in the right direction to ensure my FontAwesome icons do not cause accessibility issues
-    [FontAwesome Accessibility](https://fontawesome.com/v5.15/how-to-use/on-the-web/other-topics/accessibility)
-***
-### Personal Development
-
-Having had a session with my Code Institute mentor, I went about modifying the commit messages on most commits to include a reference to the document which had been worked on. I used the following method to modify the commit messages through git:
-
-*In the powershell terminal within VSCode, with the repository as my current working directory, I entered the following:*
-
-```
-git rebase -i HEAD~95
-```
-*This generated a text document within my editor. I changed "pick" to "r" on all commits which needed document references adding*
-
-*(snippet from document)*
-```
-pick 4696f63 DOC+ temporary gallery-select images
-r 34b9b76 ADD images + basic styling to gallery-select
-r 7e42d60 REM <a> from header. stop cursor change on text
-r 6882570 ADD basic form structure
-r 04e17e6 ADD placeholders + change "enquiry" to textarea
-pick f45cb8e ADD styling to form [contact.html]
-```
-*This allowed me to edit the commit messages individually in my editor to include the document reference*
-```
-ADD placeholders + change "enquiry" to textarea [contact.html]
-```
-*Once the files were edited, saved and closed, I proceeded to force push the commits back into the GitHub repository*
-```
-git push --force
-```
-*This allowed the commit messages to be changed but changed the commit times of the messages to the time of the edit*
-
-I thought this was a big problem and spent a while researching how to modify commit times. I tested the time change on one commit, did something wrong in the process and duplicated the entire commit history (bar the initial commit) with new SHAs, resulting in 191 commits. I believe I merged the modified commit (with original commit time) with the original branch, causing a new 'history' of commits which were duplicates of the existing ones. I then ran another rebase of the entire commit history and was able to identify the unwanted commit messages, delete the lines from the generated todo file and, once saved and forced back to GitHub, the commit duplicates ceased to be present
-
-This process has highlighted the danger of rebase operations within a repository. Although I may occasionally rebase and edit a typo in an un-pushed commit, I think in the future, especially with pushed commits, I would prefer to make changes in a new commit and document the changes very well in a readme file
-
-In the case of having an error within the commit message format for a while, I should have continued with a new format and made reference to the error in this document. The note would have been as follows:
-
-*I have made an error with the first 95 commit messages within this repo. The commit messages do not indicate which documents have been worked on, leading to a more time consuming analysis of the commit history. I will endeavour to maintain a commit message structure which allows quick identification of the modified documents within the first line of the commit message [**document name here**]*
-
-In future, if collaborating with others, I will clarify the format/content of commit messages to ensure a consistent method is applied throughout the project. I will avoid using the rebase facility of GitHub as much as possible
+- The photos are taken from [Pexels] (https://pexels.com)
